@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Cat Viewer</h1>
+
+  <label for="breedSelect">Select a breed:</label>
+  <select id="breedSelect" onchange="getCatImage()">
+    <!-- Options will be dynamically added using JavaScript -->
+  </select>
+
+  <img id="catImage" src="" alt="Cat Image">
+
+  <div id="breedInfo"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
